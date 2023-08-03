@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(251, 250, 241);
+    gap: 100px;
+}
+
+#nav-bar{
+    background-color: lightyellow;
+}
+
+#list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+#list li{
+    background-color: rgb(255, 224, 99);
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+
+#list li:hover{
+    flex-basis: 200px;
+    height: 70px;
+    box-shadow: 0px 0px 8px gray;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    gap: 1.5rem;
+    align-items: center;
+    background-color: rgb(255, 255, 204);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#card:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    box-shadow: 0px 0px 8px gray;
+}
+
+#img{
+    text-align: center;
+}
+
+#img1{
+    width: 300px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2em;
+}
+
+#footer-card{
+    display: flex;
+    width: 50%;
+    background-color: rgb(255, 224, 99);
+    justify-content: center;
+    height: 2em;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#main-card div:first-child div:last-child {
+    font-size: 0.8em;
+}
+
+#footer-card:hover{
+    color: green;
+}
+
+#item {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 10px;
+}
+
+#img2 {
+    width: 200px;
+    height: auto;
+}
+
+#item div{
+    min-width: 200px;
+    padding: 10px;
+    background-color: lightyellow;
+    flex-basis: 50%;
+}
